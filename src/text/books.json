@@ -1,0 +1,29 @@
+{
+    "readingNow": {
+        "it": "Leggendo Ora",
+        "en": "Reading Now"
+    },
+    "finished": {
+        "it": "Finiti",
+        "en": "Finished"
+    }, 
+    "toRead": {
+        "it": "Da Leggere",
+        "en": "To Read"
+    }, 
+    "howManyBooks": {
+        "it": "libri",
+        "en": "books"
+    },
+
+    "epubBook":{
+        "noteTitle": {
+            "it": "Note",
+            "en": "Notes"
+        },
+        "noContent": {
+            "it": "Non ci sono note relative al libro.",
+            "en": "There are no notes relative to this book."
+        }
+    }
+}

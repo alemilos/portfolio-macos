@@ -1,0 +1,65 @@
+{
+    "myProjects":{
+        "it": "I Miei Progetti",
+        "en": "My Projects"
+    },
+    "searchBar":{
+        "placeholder": {
+            "it": "Cerca progetti o altro",
+            "en": "Search projects or other"
+        }
+    },
+    "notFound": {
+        "search" :{
+            "it": "La tua ricerca non ha prodotto risultati.",
+            "en": "Your search did not match any documents."
+        },
+        "suggestions": {
+            "title": {
+                "it": "Consigli: ",
+                "en": "Suggestions: "
+            },
+            "list": {
+                "bullet1": {
+                    "it": "• Prova a cercare un mio progetto",
+                    "en": "• Try to search one of my projects"
+                }
+            }
+        }
+    },
+    "project": {
+        "status": {
+            "IN_PROGRESS": {
+                "it": "in fase di sviluppo",
+                "en": "work in progress"
+            },
+            "COMPLETED": {
+                "it": "completato",
+                "en": "completed"
+            },
+            "IDEA": {
+                "it": "idea",
+                "en": "idea"
+            }
+        },
+        "labels": {
+            "about": {
+                "it": "Cos'è",
+                "en": "About"
+            },
+            "screenshots": {
+                "it": "Immagini",
+                "en": "Screenshots"
+            }
+        },
+        "technologies": {
+            "it": "Tecnologie",
+            "en": "Technologies"
+        },
+        "libraries": {
+            "it": "Librerie",
+            "en": "Libraries"
+        }
+
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "to": {
+        "it": "Destinatario",
+        "en": "Recipient"
+    },
+    "cc": {
+        "it": "Email",
+        "en": "Email"
+    },
+    "subject": {
+        "it": "Oggetto",
+        "en": "Subject"
+    }
+}

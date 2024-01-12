@@ -1,0 +1,19 @@
+{
+    "select": {
+        "it": "Seleziona una nota",
+        "en": "Select a note"
+    }, 
+    "comments": {
+        "it": "Commenti",
+        "en": "Comments"
+    },
+    "addComment": {
+        "it": "Aggiungi un commento", 
+        "en": "Add a comment"
+    }, 
+    "loginToComment": {
+        "it": "Iscriviti per commentare!"
+        , "en": "Subscribe to comment!"
+    }
+    
+}

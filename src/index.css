@@ -1,0 +1,487 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.desktop-container{
+  /* Background management */
+  height: 100vh;
+  background-image: url("./assets/macos-background.jpeg");
+  background-size:cover ;
+
+  /* Container Management  */
+  display: flex;
+  flex-direction: column;
+}
+
+
+/******************************************************************************** 
+**************************** MENU BAR *******************************************
+*********************************************************************************/
+
+.menuBar-section-container{
+  height: 3%;
+}
+
+.menuBar-container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(to right,  
+  #FF375A,  #1077BD);
+  backdrop-filter: blur(10px); 
+
+  display: flex;
+  align-items: center;
+}
+
+/* Menu Bar LEFT */
+.menuBar-l-container{
+  width: 50%;
+  height: 100%;
+  padding-left: 20px;
+  display: flex;
+justify-content: left;
+}
+
+/* Menu Bar RIGHT */
+.menuBar-r-container{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: right;
+align-items: center;
+padding-right: 20px;
+gap: 16px;
+}
+
+.menuBar-r-time-container p{
+  color: white; 
+  font-size: 14px;
+}
+
+.menuBar-r-links-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.menuBar-r-links-a{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links-icon{
+  cursor: pointer;
+  color: white;
+}
+
+.menuBar-r-languageSetter-flag-img{
+  height: 13px;
+  width: 20px;
+  cursor: pointer;
+}
+
+/******************************************************************************** 
+**************************** DESKTOP CONTENT ************************************
+*********************************************************************************/
+
+.desktopContent-section-container{
+  height: 89%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/****************
+ TERMINAL panel
+ ***************/
+
+.terminal-panel-container{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(118,115,118);
+}
+
+.terminal-panel-header{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+
+  background-color: rgba(67, 70, 77, 0.7);
+
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  border-radius: inherit;
+  border-end-end-radius: 0;
+  border-end-start-radius: 0;
+  padding-left: 7.5px;
+  
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.terminal-panel-control-btn{
+  opacity: 1;
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+
+  cursor: pointer;
+}
+
+.terminal-panel-red-control-btn{
+  background-color: #FF3B30;
+}
+.terminal-panel-yellow-control-btn{
+  background-color: #FFD60A;
+}
+.terminal-panel-green-control-btn{
+  background-color: #34C759;
+}
+
+.terminal-panel-titleBar{
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  border-top-right-radius: inherit ;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 48px;
+}
+
+.terminal-panel-titleBar p{
+  color: rgb(201,206,220);
+  font-weight: bold;
+  font-size: 13px;
+
+}
+
+.terminal-panel-content{
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 470px;
+  border-end-end-radius: inherit;
+  border-end-start-radius: inherit;
+}
+
+/****************
+ SETTINGS panel
+ ***************/
+
+ .settings-panel-container{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(118,115,118);
+
+  display: flex;
+ }
+
+ .settings-panel-sidebar{
+  width: 216px;
+  height: 100%;
+  background-color: rgba(67, 70, 77, 0.7);
+
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  border-top-left-radius: inherit;
+  border-end-start-radius: inherit;
+ }
+
+ .settings-panel-sidebar-header{
+  box-sizing: border-box;
+  width: 100%;
+  border-top-left-radius: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  height: 50px;
+ }
+
+ .settings-panel-content {
+   width: 584px;
+   height: 100%;
+   background-color: rgb(43, 38, 48);
+
+   border-top-right-radius: inherit;
+   border-end-end-radius: inherit;
+ }
+
+/****************
+ NOTES panel
+ ***************/
+
+ .notes-panel-container{  
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(118,115,118);
+
+  display: flex;
+ }
+
+ .notes-panel-sidebar{
+  width: 281px;
+  height: 100%;
+  background-color: rgb(34, 29,39);
+
+  border-top-left-radius: inherit;
+  border-end-start-radius: inherit;
+ }
+
+ .notes-panel-sidebar-header{
+  box-sizing: border-box;
+  width: 100%;
+  border-top-left-radius: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  height: 50px;
+  border-bottom: 1px solid black;
+ }
+
+ .notes-panel-content-header{
+  box-sizing: border-box;
+  height: 50px;
+
+  border-top-right-radius: inherit;
+  background-color: rgb(34, 29,39);
+  border-bottom: 1px solid black;
+
+ }
+
+ .notes-panel-content {
+   width: 519px;
+   height: 100%;
+   background-color: rgb(31, 30, 30);
+
+   border-top-right-radius: inherit;
+   border-end-end-radius: inherit;
+
+   border-left: 1px solid black;
+ }
+
+
+ /****************
+  BOOKS panel
+ ***************/
+
+
+ .books-panel-container{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(118,115,118);
+
+  display: flex;
+ }
+
+ .books-panel-sidebar{
+  width: 216px;
+  height: 100%;
+  background-color: rgba(67, 70, 77, 0.7);
+
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  border-top-left-radius: inherit;
+  border-end-start-radius: inherit;
+ }
+
+ .books-panel-sidebar-header{
+  box-sizing: border-box;
+  width: 100%;
+  border-top-left-radius: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  height: 50px;
+ }
+
+ .books-panel-content {
+   width: 584px;
+   height: 100%;
+   background-color: rgb(30, 30, 30);
+
+   border-top-right-radius: inherit;
+   border-end-end-radius: inherit;
+ }
+
+ /****************
+  PHOTOS panel
+ ***************/
+
+
+ .photos-panel-container{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid rgb(118,115,118);
+
+  display: flex;
+ }
+
+ .photos-panel-sidebar{
+  width: 216px;
+  height: 100%;
+  background-color: rgba(67, 70, 77, 0.7);
+
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  border-top-left-radius: inherit;
+  border-end-start-radius: inherit;
+ }
+
+ .photos-panel-sidebar-header{
+  box-sizing: border-box;
+  width: 100%;
+  border-top-left-radius: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  height: 50px;
+ }
+
+ .photos-panel-content {
+   width: 584px;
+   height: 100%;
+   background-color: rgb(34, 29,39);
+
+
+   border-top-right-radius: inherit;
+   border-end-end-radius: inherit;
+ }
+
+ .photos-panel-content-header{
+  box-sizing: border-box;
+  height: 50px;
+
+  border-top-right-radius: inherit;
+  background-color: rgb(55, 52,58);
+
+ }
+
+
+/******************************************************************************** 
+******************************** DOCK *******************************************
+*********************************************************************************/
+
+.dock-section-container{
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dock-container{
+  height: 80%;
+  width: 100%;
+  margin: 0 4%;
+  border-radius: 16px;
+
+  background-color: rgba(255, 255, 255, 0.1); /* Light gray translucent background */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); /* Blurred background effect */
+  /* -webkit-backdrop-filter: blur(10px);  */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+}
+
+/* Dock Apps */
+
+.dock-app{
+  /* General Style for dock apps */
+  cursor: pointer;
+}
+
+.dock-terminal{
+  height: 43px;
+  width: 43px;
+  background-image: url("./assets/terminal.png");
+  background-size:cover ;
+}
+.dock-settings{
+  height: 49px;
+  width: 49px;
+  background-image: url("./assets/settings.png");
+  background-size:cover ;
+}
+
+.dock-books{
+  height: 42px;
+  width: 42px;
+  background-image: url("./assets/books.png");
+  background-size:cover ;
+}
+.dock-notes{
+  height: 48px;
+  width: 48px;
+  background-image: url("./assets/notes.png");
+  background-size:cover ;
+}
+
+.dock-mails{
+  height: 50px;
+  width: 50px;
+  background-image: url("./assets/mails.png");
+  background-size:cover ;
+}
+.dock-photos{
+  height: 45px;
+  width: 45px;
+  background-image: url("./assets/photos.png");
+  background-size:cover ;
+}
+.dock-safari{
+  height: 50px;
+  width: 50px;
+  background-image: url("./assets/safari.png");
+  background-size:cover ; 
+}
+
+/******************************************************************************** 
+******************************** REUSABLES **************************************
+*********************************************************************************/
+
+.controlButtons-container{
+  box-sizing: content-box;
+  display: flex;    
+  width: fit-content;
+  gap: 7px;
+
+}
+
+ .controlButtons-control-btn{
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+
+  cursor: pointer; 
+ }
+
+ .controlButtons-red-control-btn{
+  background-color: #FF3B30;
+}
+.controlButtons-yellow-control-btn{
+  background-color: rgb(245, 191, 79 );
+}
+.controlButtons-green-control-btn{
+  background-color: #34C759;
+}
