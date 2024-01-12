@@ -1,9 +1,11 @@
 import React from "react";
+
+// Hooks
 import { useScreenSize } from "./providers/ScreenSizeProvider";
-import DesktopApp from "./apps/DesktopApp";
-import SmartphoneApp from "./apps/SmartphoneApp";
-import { useState } from "react";
-import { useEffect } from "react";
+
+// Components (Apps)
+import DesktopApp from "./apps/dekstop/DesktopApp";
+import SmartphoneApp from "./apps/smartphone/SmartphoneApp";
 
 const WhichApp = () => {
   const { width } = useScreenSize();

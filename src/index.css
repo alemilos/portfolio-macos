@@ -14,7 +14,7 @@ html, body{
 .desktop-container{
   /* Background management */
   height: 100vh;
-  background-image: url("./assets/macos-background.jpeg");
+  background-image: url('./apps/dekstop/assets/macos-background.jpeg');
   background-size:cover ;
 
   /* Container Management  */
@@ -413,45 +413,45 @@ gap: 16px;
 .dock-terminal{
   height: 43px;
   width: 43px;
-  background-image: url("./assets/terminal.png");
+  background-image: url('apps/dekstop/assets/terminal.png');
   background-size:cover ;
 }
 .dock-settings{
   height: 49px;
   width: 49px;
-  background-image: url("./assets/settings.png");
+  background-image: url('./apps/dekstop/assets/settings.png');
   background-size:cover ;
 }
 
 .dock-books{
   height: 42px;
   width: 42px;
-  background-image: url("./assets/books.png");
+  background-image: url('./apps/dekstop/assets/books.png');
   background-size:cover ;
 }
 .dock-notes{
   height: 48px;
   width: 48px;
-  background-image: url("./assets/notes.png");
+  background-image: url('./apps/dekstop/assets/notes.png');
   background-size:cover ;
 }
 
 .dock-mails{
   height: 50px;
   width: 50px;
-  background-image: url("./assets/mails.png");
+  background-image: url('./apps/dekstop/assets/mails.png');
   background-size:cover ;
 }
 .dock-photos{
   height: 45px;
   width: 45px;
-  background-image: url("./assets/photos.png");
+  background-image: url('./apps/dekstop/assets/photos.png');
   background-size:cover ;
 }
 .dock-safari{
   height: 50px;
   width: 50px;
-  background-image: url("./assets/safari.png");
+  background-image: url('./apps/dekstop/assets/safari.png');
   background-size:cover ; 
 }
 
