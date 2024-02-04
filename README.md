@@ -10,6 +10,7 @@ There are other features I'd like to add in the future,
 
 - My Photos, to show who I am and how I change.
 - Projects automatically fetched from github profile
+- A Terminal to interact with
 - Smartphone view (Android like, this will make me change the repo name)
 - ...
 
