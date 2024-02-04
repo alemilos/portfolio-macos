@@ -16,7 +16,7 @@ There are other features I'd like to add in the future,
 ## How to initialize the project
 
 Install the dependencies
-# npm install
+```npm install```
 
 Run the app locally
-# npm run dev
+```npm run dev```
